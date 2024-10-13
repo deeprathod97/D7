@@ -1,0 +1,220 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f6fa;
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+.sidebar .profile {
+    text-align: center;
+}
+.sidebar .profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.sidebar .profile h2 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+.sidebar .profile p {
+    color: #888;
+    font-size: 14px;
+}
+.sidebar .profile .icons {
+    margin: 10px 0;
+}
+.sidebar .profile .icons i {
+    margin: 0 5px;
+    color: #888;
+}
+.sidebar .stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.sidebar .stats div {
+    text-align: center;
+}
+.sidebar .stats div h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.sidebar .stats div p {
+    color: #888;
+    font-size: 14px;
+}
+.sidebar .projects, .sidebar .team {
+    margin: 20px 0;
+}
+.sidebar .projects h3, .sidebar .team h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.sidebar .projects ul, .sidebar .team ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar .projects ul li, .sidebar .team ul li {
+    margin: 10px 0;
+    color: #888;
+    font-size: 14px;
+}
+.sidebar .team ul li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.main .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.main .header .search {
+    display: flex;
+    align-items: center;
+    background-color: #f5f6fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+.main .header .search input {
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: 10px;
+}
+.main .header .profile {
+    display: flex;
+    align-items: center;
+}
+.main .header .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.main .header .profile i {
+    margin: 0 5px;
+    color: #888;
+}
+.main .content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+.main .content .tasks {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
+}
+.main .content .tasks h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.main .content .tasks ul {
+    list-style: none;
+    padding: 0;
+}
+.main .content .tasks ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #f5f6fa;
+}
+.main .content .tasks ul li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.main .content .tasks ul li .info {
+    flex: 1;
+}
+.main .content .tasks ul li .info h4 {
+    margin: 0;
+    font-size: 14px;
+}
+.main .content .tasks ul li .info p {
+    margin: 0;
+    color: #888;
+    font-size: 12px;
+}
+.main .content .tasks ul li .status {
+    color: #888;
+}
+.main .content .details {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    overflow-y: auto;
+}
+.main .content .details h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.main .content .details p {
+    color: #888;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.main .content .details .info {
+    margin: 20px 0;
+}
+.main .content .details .info p {
+    margin: 5px 0;
+}
+.main .content .details .info .completed {
+    color: #4caf50;
+}
+.main .content .details .attachments {
+    margin: 20px 0;
+}
+.main .content .details .attachments .file {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f6fa;
+    border-radius: 5px;
+}
+.main .content .details .attachments .file i {
+    margin-right: 10px;
+    color: #888;
+}
+.main .content .details .attachments .file p {
+    margin: 0;
+    color: #888;
+    font-size: 14px;
+}
+.main .content .details .comment {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f6fa;
+    border-radius: 5px;
+}
+.main .content .details .comment input {
+    border: none;
+    background: none;
+    outline: none;
+    flex: 1;
+    margin-left: 10px;
+}
